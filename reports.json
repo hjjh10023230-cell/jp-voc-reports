@@ -1,15 +1,28 @@
 [
   {
+    "id": "2026-10-06",
+    "type": "daily",
+    "title": "JP KA VOC 日报｜2026-10-06",
+    "market": "JP",
+    "periodStart": "2026-10-06",
+    "periodEnd": "2026-10-06",
+    "publishedAt": "2026-10-07",
+    "url": "reports/2026/2026-10-06/",
+    "summary": "交易链路需监控；物理 AI 只做小流量测试，不向 KA 全量追热点。",
+    "tags": ["DAILY", "VOC", "MARKET", "KA SEGMENTS"]
+  },
+  {
     "id": "2026-09-28_to_2026-10-04",
-    "title": "JP VOC 周报｜2026-09-28～2026-10-04",
+    "type": "weekly",
+    "title": "JP KA VOC 周报｜2026-09-28～2026-10-04",
     "market": "JP",
     "periodStart": "2026-09-28",
     "periodEnd": "2026-10-04",
     "comparisonStart": "2026-09-21",
     "comparisonEnd": "2026-09-27",
-    "publishedAt": "2026-10-05",
+    "publishedAt": "2026-10-07",
     "url": "reports/2026/2026-09-28_to_2026-10-04/",
-    "summary": "VIX与宏观风险升温；交易失败、派息与企业行动、换汇及资产展示成为主要VOC问题。",
-    "tags": ["THEME", "EVENT", "VOC"]
+    "summary": "交易问题升温；VIX 居首、半导体降温，下周先修体验再承接市场事件。",
+    "tags": ["WEEKLY", "TREND", "X/YAHOO", "KA SEGMENTS"]
   }
 ]

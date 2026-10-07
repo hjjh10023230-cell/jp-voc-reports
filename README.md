@@ -6,6 +6,8 @@ JP 市场 VOC 报告中心，统一归档 THEME、EVENT 与 VOC 用户问题报�
 
 - 报告中心：首页 `https://hjjh10023230-cell.github.io/jp-voc-reports/`
 - 最新一期：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest.html`
+- 最新日报：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest-daily.html`
+- 最新周报：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest-weekly.html`
 - 历史报告：从首页进入，或使用各报告独立目录链接
 
 ## 目录规则
@@ -13,7 +15,8 @@ JP 市场 VOC 报告中心，统一归档 THEME、EVENT 与 VOC 用户问题报�
 每份报告独立放在以下路径：
 
 ```text
-reports/<年份>/<开始日期>_to_<结束日期>/index.html
+reports/<年份>/<YYYY-MM-DD>/index.html                 # 日报
+reports/<年份>/<开始日期>_to_<结束日期>/index.html   # 周报
 ```
 
 示例：
