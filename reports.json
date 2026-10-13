@@ -1,15 +1,17 @@
 [
   {
-    "id": "2026-10-06",
-    "type": "daily",
-    "title": "JP KA VOC 日报｜2026-10-06",
+    "id": "2026-10-05_to_2026-10-11",
+    "type": "weekly",
+    "title": "JP KA VOC 周报｜2026-10-05～2026-10-11",
     "market": "JP",
-    "periodStart": "2026-10-06",
-    "periodEnd": "2026-10-06",
-    "publishedAt": "2026-10-07",
-    "url": "reports/2026/2026-10-06/",
-    "summary": "交易链路需监控；物理 AI 只做小流量测试，不向 KA 全量追热点。",
-    "tags": ["DAILY", "VOC", "MARKET", "KA SEGMENTS"]
+    "periodStart": "2026-10-05",
+    "periodEnd": "2026-10-11",
+    "comparisonStart": "2026-09-28",
+    "comparisonEnd": "2026-10-04",
+    "publishedAt": "2026-10-13",
+    "url": "reports/2026/2026-10-05_to_2026-10-11/",
+    "summary": "讨论从泛半导体转向个股分化与宏观风险；交易执行和美元资金操作升温。",
+    "tags": ["WEEKLY", "内部VOC", "外部舆情", "风险/机会"]
   },
   {
     "id": "2026-09-28_to_2026-10-04",
@@ -20,9 +22,9 @@
     "periodEnd": "2026-10-04",
     "comparisonStart": "2026-09-21",
     "comparisonEnd": "2026-09-27",
-    "publishedAt": "2026-10-07",
+    "publishedAt": "2026-10-13",
     "url": "reports/2026/2026-09-28_to_2026-10-04/",
-    "summary": "交易问题升温；VIX 居首、半导体降温，下周先修体验再承接市场事件。",
-    "tags": ["WEEKLY", "TREND", "X/YAHOO", "KA SEGMENTS"]
+    "summary": "交易问题由3条增至9条；关注从半导体集中转向VIX与宏观风险。",
+    "tags": ["WEEKLY", "问题/板块/个股", "风险原声", "方向提示"]
   }
 ]

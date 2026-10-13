@@ -1,40 +1,46 @@
-# JP VOC Reports
+# JP KA VOC Weekly Reports
 
-JP 市场 VOC 报告中心，统一归档 THEME、EVENT 与 VOC 用户问题报告。
+JP KA VOC周报中心，按周归档内部客户反馈、用户投资关注、外部公开舆情与风险／机会信号。
 
-## 对外链接
+## 在线入口
 
-- 报告中心：首页 `https://hjjh10023230-cell.github.io/jp-voc-reports/`
-- 最新一期：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest.html`
-- 最新日报：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest-daily.html`
+- 报告中心：`https://hjjh10023230-cell.github.io/jp-voc-reports/`
 - 最新周报：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest-weekly.html`
-- 历史报告：从首页进入，或使用各报告独立目录链接
+- 固定最新链接：`https://hjjh10023230-cell.github.io/jp-voc-reports/latest.html`
+- 历史周报：从报告中心进入，或访问对应周期目录
 
 ## 目录规则
 
-每份报告独立放在以下路径：
-
 ```text
-reports/<年份>/<YYYY-MM-DD>/index.html                 # 日报
-reports/<年份>/<开始日期>_to_<结束日期>/index.html   # 周报
+reports/<年份>/<开始日期>_to_<结束日期>/index.html
 ```
 
-示例：
+## 新增一期周报
 
-```text
-reports/2026/2026-09-28_to_2026-10-04/index.html
-```
+1. 运行六类人群周数据提取，输出必须放在仓库外：
 
-## 新增一期报告
+   ```powershell
+   node scripts/fetch_ka_voc_week.js --start YYYY-MM-DD --end YYYY-MM-DD --output <仓库外JSON>
+   ```
 
-1. 创建新的日期目录并放入 `index.html`。
-2. 在 `reports.json` 最前面加入报告元数据。
-3. 在站点首页加入报告卡片。
-4. 把 `latest.html` 指向新报告。
-5. 提交并推送到 `main`，GitHub Pages 会自动发布。
+2. 核对KA整体及五类细分人群；细分人群无反馈时只写“暂无新增反馈”。
+3. 创建周期目录并生成 `index.html`。
+4. 更新 `reports.json`、首页、`latest.html`和`latest-weekly.html`。
+5. 只展示信号、趋势与最简方向提示，不输出完整运营方案。
+6. 发布前检查数据口径、来源去重、低样本表述和敏感信息。
+7. 提交并推送到 `main`，GitHub Pages自动更新。
 
-如果由 Claude Code 维护，只需要说：**“把这份 JP VOC 报告发布到报告中心”**。
+## 固定周报结构
+
+1. 周度总结与关键指标；
+2. 内部VOC：热门问题、板块／事件、热门个股；
+3. 外部舆情：主题、个股、市场关注问题；
+4. 风险／机会发现；
+5. 最多3条方向提示；
+6. 折叠的数据来源与口径。
+
+全量反馈进入分析，但正文只展示重要信号。外部舆情按独立编辑来源去重；没有稳定数据时不展示虚假精确热度。
 
 ## 安全要求
 
-这是公开 GitHub 仓库和公开网页。发布前必须去除 UID、账户号、姓名、电话、邮箱、原始私聊记录和其他敏感信息。`robots=noindex` 仅表达不希望搜索引擎索引，不能替代访问控制。
+这是公开GitHub仓库和公开网页。发布前必须去除UID、账户号、姓名、电话、邮箱、内部链接、原始私聊记录和其他敏感信息。`robots=noindex`不能替代访问控制。
