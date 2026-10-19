@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-10-12_to_2026-10-18",
+    "type": "weekly",
+    "title": "JP KA VOC 周报｜2026-10-12～2026-10-18",
+    "market": "JP",
+    "periodStart": "2026-10-12",
+    "periodEnd": "2026-10-18",
+    "comparisonStart": "2026-10-05",
+    "comparisonEnd": "2026-10-11",
+    "publishedAt": "2026-10-19",
+    "url": "reports/2026/2026-10-12_to_2026-10-18/",
+    "summary": "客服问题总量回落；投资关注重新集中至半导体、明星科技股及AI基础设施调整。",
+    "tags": ["WEEKLY", "内部VOC", "外部舆情", "风险/机会"]
+  },
+  {
     "id": "2026-10-05_to_2026-10-11",
     "type": "weekly",
     "title": "JP KA VOC 周报｜2026-10-05～2026-10-11",
