@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-10-19_to_2026-10-25",
+    "type": "weekly",
+    "title": "JP KA VOC 周报｜2026-10-19～2026-10-25",
+    "market": "JP",
+    "periodStart": "2026-10-19",
+    "periodEnd": "2026-10-25",
+    "comparisonStart": "2026-10-12",
+    "comparisonEnd": "2026-10-18",
+    "publishedAt": "2026-10-26",
+    "url": "reports/2026/2026-10-19_to_2026-10-25/",
+    "summary": "账户与交易可用性问题升温；AI关注从科技股跌势转向云算力、资本开支与现金流兑现。",
+    "tags": ["WEEKLY", "内部VOC", "外部舆情", "风险/机会"]
+  },
+  {
     "id": "2026-10-12_to_2026-10-18",
     "type": "weekly",
     "title": "JP KA VOC 周报｜2026-10-12～2026-10-18",
